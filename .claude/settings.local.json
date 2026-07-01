@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(python3 -m venv venv)",
+      "PowerShell(py -c \"import sys; print\\(sys.executable\\)\")",
+      "PowerShell(py -m pip --version)"
+    ]
+  }
+}
